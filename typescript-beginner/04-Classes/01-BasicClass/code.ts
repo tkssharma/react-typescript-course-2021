@@ -2,7 +2,6 @@ class Product {
   name: string;
   unitPrice: number;
 }
-
 class OrderDetail {
   product: Product;
   quantity: number;

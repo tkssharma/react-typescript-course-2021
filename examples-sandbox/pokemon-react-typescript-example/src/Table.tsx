@@ -2,7 +2,6 @@ import * as React from 'react';
 import { PokemonType } from './pokemons';
 
 type TableProps = { children: React.ReactNode };
-
 type TableRowProps = {
   heading: Capitalize<keyof PokemonType>;
   value: PokemonType[keyof PokemonType];

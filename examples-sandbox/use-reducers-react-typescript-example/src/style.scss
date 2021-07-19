@@ -1,0 +1,14 @@
+.container {
+  padding: 40px;
+}
+form {
+  padding: 0.5em;
+  margin: 1em 0 0.5em 0;
+  display: flex;
+  flex-direction: column;
+  label {
+    text-align: center;
+    display: block;
+    margin: 1.5em 0 0.5em 0;
+  }
+}

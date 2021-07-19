@@ -11,7 +11,7 @@ export default [
     total: 233
   },
   {
-    name: "balbasaur",
+    name: "Pikachu",
     alignment: "good",
     intelligence: 38,
     strength: 100,

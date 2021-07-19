@@ -25,10 +25,9 @@ export class MemberPageContainer extends React.Component<Props, State> {
       }
     };
 
-    this.onFieldValueChange = this.onFieldValueChange.bind(this);
   }
 
-  private onFieldValueChange(fieldName: string, value: string) {
+  private onFieldValueChange = (fieldName: string, value: string) => {
     const nextState = {
       ...this.state,
       member: {
